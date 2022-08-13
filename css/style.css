@@ -1,0 +1,299 @@
+/***********************/
+/* HEADER */
+/***********************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcf7de;
+
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 6rem;
+}
+
+/***********************/
+/* NAVIGATION */
+/***********************/
+
+.main-nav-list {
+  list-style: none;
+  align-items: center;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  background-color: #e67e22;
+  color: #fff;
+  border-radius: 7px;
+  font-weight: 600;
+  padding: 1.2rem 2.4rem;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
+}
+/***********************/
+/* HERO SECTION */
+/***********************/
+
+.section-hero {
+  background-color: #fcf7de;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9.6rem;
+}
+
+.hero-descriprion {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.users {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.faces {
+  display: flex;
+}
+
+.faces img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
+}
+
+.faces img:last-child {
+  margin-right: 0;
+}
+
+.registered-users-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/***********************/
+/* FEATURED IN SECTION */
+/***********************/
+
+.featured {
+  padding: 0;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 8rem;
+  filter: grayscale(100%);
+  opacity: 50%;
+}
+
+/***********************/
+/* HOW IT WORKS */
+/***********************/
+
+.section-how {
+  padding: 9.6px 0;
+}
+
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+
+.description {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.first-image {
+  width: 100%;
+}
+
+/***********************/
+/* SPEC SECTION */
+/***********************/
+
+.spec {
+  padding: 9.6px 0;
+}
+
+.specification {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.specification:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.065);
+}
+
+.spec-image {
+  width: 100%;
+}
+
+.spec-title {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.spec-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.icons {
+  font-size: 2.4rem;
+  color: #e67e22;
+}
+
+.spec-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  font-weight: 500;
+}
+
+.content {
+  padding: 4.8rem;
+  padding-top: 3.2rem;
+}
+
+.bottom-link {
+  text-align: center;
+  font-size: 1.8rem;
+  padding-bottom: 4rem;
+}
+
+.link:link,
+.link:visited {
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+
+/***********************/
+/* USERS SECTION */
+/***********************/
+
+.section-users {
+  background-color: #fcf7de;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+
+.users-container {
+  padding: 9.6rem;
+}
+
+.users {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.user-image {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.6rem;
+}
+
+.user-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+.user-name {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+/***********************/
+/* PRICING SECTION */
+/***********************/
+
+.section-pricing {
+  padding: 9.6rem;
+}
